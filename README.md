@@ -11,4 +11,4 @@ The Barbershop Synchronization Problem in Python
   - If a customer thread arrives when the shop is full, it can invoke balk, which does not return.
   - Barber threads should invoke cutHair.
   - When the barber invokes cutHair, there should be exactly one thread invoking getHairCut concurrently.
-  - Write a program to coordinate the barber and the customers.
+- Write a program to coordinate the barber and the customers.
